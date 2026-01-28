@@ -1,0 +1,157 @@
+/* ===== RESET BÁSICO ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    padding: 20px;
+    margin: 0;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ===== TÍTULOS ===== */
+h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 4px 0;
+    color: #374151;
+}
+
+/* ===== CARD QUESTÃO ===== */
+.card {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 6px solid #2563eb;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* ===== ALTERNATIVAS ===== */
+.option {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.option input {
+    margin-right: 8px;
+}
+
+/* ===== BOTÃO ===== */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+}
+
+button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+/* ===== FEEDBACK ===== */
+.correct {
+    background: #dcfce7;
+    color: #065f46;
+    border-left: 6px solid #22c55e;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.wrong {
+    background: #fee2e2;
+    color: #7f1d1d;
+    border-left: 6px solid #ef4444;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.explain {
+    background: #eef2ff;
+    color: #1e3a8a;
+    border-left: 6px solid #6366f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* ===== TIMER ===== */
+#timer {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* ===== PROGRESSO ===== */
+.progress {
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    margin: 12px 0;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #2563eb;
+    border-radius: 10px;
+    width: 0%;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .card {
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    .option {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 17px;
+        padding: 14px;
+    }
+
+    .explain {
+        font-size: 14px;
+    }
+}
