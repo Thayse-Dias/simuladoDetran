@@ -22,6 +22,9 @@ jobs:
       - name: 📥 Checkout do repositório
         uses: actions/checkout@v4
 
+      - name: ⚙️ Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+
       - name: 📦 Upload dos arquivos
         uses: actions/upload-pages-artifact@v3
         with:
