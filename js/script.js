@@ -142,6 +142,55 @@ const questoes = [
         explicacao: "2×5 + 3 = 13."
   },
 
+   // Título: Legislação do Trânsito  - Simulado
+  {
+        pergunta: "No que se refere ao tema da “sinalização de trânsito”, assinale a alternativa incorreta.",
+        alternativas: [
+        "A) Sempre que necessário, será colocada ao longo da via, sinalização prevista no Código de Trânsito Brasileiro e em legislação complementar, destinadaa condutores e pedestres, vedada a utilização de qualquer outra.",
+        "B) A sinalização deve ser colocada em posição e condições que a tornem perfeitamente visível e legível durante o dia e a noite, em distância compatível com a segurança do trânsito, conformenormas e especificações do CONTRAN.",
+        "C) A responsabilidade pela instalação da sinalização nas vias internas pertencentes aos condomínios constituídos por unidades autônomas e nas vias e áreas de estacionamento de estabelecimentos privados de uso coletivo é do poder público.",
+        "D) Nas vias públicas e nos imóveis é proibido colocar luzes, publicidade, inscrições, vegetação e mobiliário que possam gerar confusão, interferir na visibilidade da sinalização e comprometer a segurança do trânsito.",
+        "E) A sinalização de trânsito compreende os sinais, os dispositivos auxiliares e a sinalização semafórica."
+        ],
+        correta: "C",
+        explicacao: "A responsabilidade pela instalação da sinalização nas vias internas pertencentes aos condomínios constituídos por unidades autônomas e nas vias e áreas de estacionamento de estabelecimentos privados de uso coletivo é dos proprietários ou responsáveis pelos condomínios e estabelecimentos privados, e não do poder público."
+  },
+  {
+        pergunta: "No que concerne ao “uso de luzes em veículo”, conforme disposto no Código de Trânsito Brasileiro, assinale a alternativa incorreta.",
+        alternativas: [
+        "A) Os veículos de transporte coletivo de passageiros, quado circularem em faixas ou pistas a eles destinadas, e as motocicletas, motonetas e ciclomotores deverão utilizar-se de farol de luz baixa durante o dia e à noite. ",
+        "B) O condutor deve manter acesos os faróis do veículo, por meio da utilização da luz baixa à noite.",
+        "C) É facultado ao condutor o condutor manter acesas, à noite, as luzes de posição quando o veículo estiver parado para fins de embarque ou desembarque de passageiros e carga ou descarga de mercadorias.",
+        "D) O condutor deve manter acesos os faróis do veículo, por meio da utilização da luz baixa durante o dia, em túneis e sob chuva, neblina ou cerração.",
+        "E) O condutor deve manter acesos os faróis do veículo, por meio da utilização da luz baixa durante o dia, em rodovias."
+        ],
+        correta: "C",
+        explicacao: "O condutor deve manter acesas, à noite, as luzes de posição quando o veículo estiver parado para fins de embarque ou desembarque de passageiros e carga ou descarga de mercadorias, exceto em rodovias."
+  },
+  {
+        pergunta: "No que diz respeito ao procedimento de estacionamento, parada, carga e descarga, conforme disposto no Código de Trânsito Brasileiro, assinale a alternativa incorreta.",
+        alternativas: [
+        "A) Nas vias providas de acostamento, os veículos parados, estacionados ou em operação de carga ou descarga devem estar situados fora da pista de rolamento.",
+        "B) Nas paradas, operações de carga ou descarga e nos estacionamentos, o veículo deve ser posicionado no sentido do fluxo, paralelo ao bordo da pista de rolamento e junto à guia da calçada, admitidas as exceções devidamente sinalizadas.",
+        "C) Quando proibido o estacionamento na via, a parada deverá restringir-se ao tempo indispensável para embarque ou desembarque de passageiros, desde que não interrompa ou perturbe o fluxo de veículos ou a locomoção de pedestres.",
+        "D) A operação de carga ou descarga deve ser regulamentada pelo órgão ou pela entidade com circunscrição sobre a via e não deve ser consideradaestacionamento.",
+        "E) O condutor que estacionar o veículo em via pública deve desligar o motor, retirar a chave da ignição, acionar o freio de estacionamento e, quando necessário, sinalizar a presença do veículo."
+        ],
+        correta: "D",
+        explicacao: "Carga e descarga = estacionamento (CTB, art. 47)."
+  },
+  {
+        pergunta: "Os condutores de motocicletas, motonetas e ciclomotores devem circular nas vias públicas:",
+        alternativas: [
+        "A) trajados com roupas especiais de proteção contra quedas e acidentes, de livre escolha.",
+        "B) segurando o guidom com as duas mãos e com os pés posicionados em paralelo.",
+        "C) utilizando capacete de segurança, com viseira ou óculos protetores.",
+        "D) dando preferência a pedestres e a veículos de quatro rodas.",
+        "E) utilizando roupas claras, de preferência com faixas refletivas."
+        ],
+        correta: "C",
+        explicacao: "CTB, art. 244, inciso V."
+  },
   // Título: Informática  - Simulado
   {
         pergunta: "Qual dos seguintes é um sistema operacional?",
@@ -215,6 +264,58 @@ const questoes = [
         correta: "C",
         explicacao: "CPU é a Unidade Central de Processamento."
   },
+  {
+        pergunta: [
+        " Nas últimas versões do Microsoft Word é disponibilizado várias funções tais como:",
+        "(1) o recurso denominado 'Quebra de Página',",
+        "(2) transformar um arquivo PDF no padrão do Word.",
+        "(3) selecionar modelos de documentos online."
+        ],
+        alternativas: [
+        "Da relação apresentada:",
+        "A) Apenas (1) e (2) estão corretas.",
+        "B) Apenas (1) e (3) estão corretas.",
+        "C) Apenas (2) e (3) estão corretas.",
+        "D) Todas estão corretas.",
+        "E) Nenhuma está correta."
+        ],
+        correta: "D",
+        explicacao: "Todas as funções são oferecidas pelo Word."
+  },
+  {
+        pergunta: [
+        "Leia a frase abaixo referente às estruturas de redes de computadores e topologia:",
+        "As três topologias físicas mais comumente usadas são respectivamente: ______, ______ e ______.",
+        ],
+        alternativas: [
+        "A) barramento(bus), estrela (star) e anel (ring).",,
+        "B) linear (line), caracol (snail) e quadrada (square).",
+        "C) estrela (star), caracol (snail) e quadrada (square).",
+        "D) anel (ring), linear (line) e barramento (bus).",
+        "E) barramento (bus), caracol (snail) e quadrada (square)."
+        ],
+        correta: "A",
+        explicacao: "As topologias mais comuns são barramento, estrela e anel."  
+  },
+  {
+        pergunta: [
+        "Referente ao aumento de memória principal em um computador, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F):",
+        "( )  A velocidade de acesso aos dados no HD aumenta exponencialmente. ",
+        "( ) O computador aumenta o clock da CPU aumentando o processamento.",
+        "( )  O sistema poderá acessar maior quantidade de dados na RAM.",
+        ],
+        alternativas: [
+        "Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "A) V, F, F.",
+        "B) V, V, F.",
+        "C) F, V, V.",
+        "D) F, F, V.",
+        "E) V, F, V."
+        ],
+        correta: "D",
+        explicacao: "Aumento de memória não afeta HD ou clock da CPU."
+  },
+
   // Título: Português  - Simulado
   {
         pergunta: "Qual é o plural de 'cidadão'?",
@@ -323,7 +424,8 @@ const questoes = [
         ],
         correta: "E",
         explicacao: "Verbo impessoal."
-  }
+  },
+  
 ]
 
 // ================= ESTADO =================
