@@ -2,18 +2,7 @@
 
 // Título: Lógica  - Simulado
 const questoes = [
-    {
-        pergunta: "Se todo servidor é funcionário e todo funcionário é trabalhador, então:",
-        alternativas: [
-            "A) Todo trabalhador é servidor",
-            "B) Todo servidor é trabalhador",
-            "C) Nenhum servidor é trabalhador",
-            "D) Nenhum funcionário é trabalhador",
-            "E) Todo trabalhador é funcionário"
-        ],
-        correta: "B",
-        explicacao: "Se servidor ⊂ funcionário e funcionário ⊂ trabalhador, então servidor ⊂ trabalhador."
-    },
+   
     {
         pergunta: "Negar a proposição: 'Todos os veículos são automóveis' resulta em:",
         alternativas: [
@@ -141,6 +130,36 @@ const questoes = [
         correta: "D",
         explicacao: "2×5 + 3 = 13."
   },
+  {
+      pergunta: "Qual é a raiz quadrada de 81?",
+      alternativas: [
+        "A) 8",
+        "B) 9",
+        "C) 10",
+        "D) 11",
+        "E) 12"
+      ],
+      correta: "B",
+      explicacao: "A raiz quadrada de 81 é 9."
+  },
+  {
+      pergunta: "Em uma urna com 6 bolas vermelhas, 5 azuis e 4 verdes, a probabilidade de retirar simultaneamente 3 bolas de cores diferentes é igual a 24/91.",
+      alternativas: [
+      "C) Certo",
+      "E) Errado"
+      ],
+      correta: "C",
+      explicacao: "Total de combinações: C(15,3)=455. Casos favoráveis: 6×5×4=120. Probabilidade = 120/455 = 24/91."
+  },
+  {
+      pergunta: "Se 30% de um número é igual a 90, então 40% desse número é igual a 120.",
+      alternativas: [
+      "C) Certo",
+      "E) Errado"
+      ],
+      correta: "C",
+      explicacao: "30% = 0,3 → número = 90 / 0,3 = 300. Logo, 40% = 0,4 × 300 = 120."
+  },
 
    // Título: Legislação do Trânsito  - Simulado
   {
@@ -191,6 +210,55 @@ const questoes = [
         correta: "C",
         explicacao: "CTB, art. 244, inciso V."
   },
+  {
+        pergunta: "No que diz respeito às vias abertas à circulação, assinale a alternativa incorreta.",
+        alternativas: [
+        "A) É vedado ao órgão ou entidade de trânsito ourodoviário com circunscrição sobre a via regulamentar, por meio de sinalização, velocidades superiores às previstas em lei para determinada via pública.",
+        "B) A velocidade máxima permitida para a via será indicada por meio de sinalização, obedecidas suas características técnicas e as condições de trânsito.",
+        "C) A velocidade mínima não pode ser inferior à metade da velocidade máxima estabelecida, respeitadas as condições operacionais de trânsito e da via.",
+        "D) A velocidade máxima permitida para a via será estabelecida pelo órgão ou entidade de trânsito ou rodoviário com circunscrição sobre a via, observadas as condições de trânsito e da via.",
+        "E) Nas vias urbanas, a velocidade máxima permitida para os veículos é de 60 km/h, salvo onde houver sinalização em contrário."
+        ],
+        correta: "A",
+        explicacao: "De acordo com o CTB (art. 61), o órgão ou entidade de trânsito pode regulamentar velocidades máximas superiores ou inferiores às previstas em lei, desde que por meio de sinalização, observadas as condições da via e do trânsito."
+  },
+  {
+        pergunta: "Assinale a alternativa que apresenta a classificação aplicável às vias abertas à circulação, de acordo com sua utilização.",
+        alternativas: [
+        "A) Vias urbanas: via regional e via lateral.",
+        "B) Vias rurais: estradas vicinais e vias coletoras.",
+        "C) Vias urbanas: via de tráfego intenso e via local.",
+        "D) Vias rurais: rodovias e estradas.",
+        "E) Vias urbanas: rodovias e estradas."
+        ],
+        correta: "D",
+        explicacao: "Vias rurais: rodovias e estradas (CTB, art. 2º, inciso II)."
+  },
+  {
+        pergunta: "Onde não existir sinalização regulamentadora, a velocidade máxima será de:",
+        alternativas: [
+        "A) 80 km/h (oitenta quilômetros por hora), nas vias arteriais.",
+        "B) 120 km/h (cento e vinte quilômetros por hora), nas vias de trânsito rápido.",
+        "C) 100 km/h (cem quilômetros por hora) para automóveis, camionetas e motocicletas, nas rodovias de pista simples.",
+        "D) 90 km/h (noventa quilômetros por hora), nas vias coletoras.",
+        "E) 60 km/h (sessenta quilômetros por hora), nas vias arteriais."
+        ],
+        correta: "C",
+        explicacao: "CTB, art. 61."     
+  },
+  {
+        pergunta: "A autoridade de trânsito ou seus agentes, na esfera das competências previstas no Código de Trânsito Brasileiro e dentro de sua circunscrição, deverá adotar, dente outras, as seguintes medidas administrativas:",
+        alternativas: [
+        "A) recolhimento da permissão para dirigir e leilão do veículo sinistrado.",
+        "B) transbordo do excesso de carga e retenção do veículo.",
+        "C) recolhimento de adolescentes que estejam na direção de veículo automotor e realização de teste de dosagem de alcoolemia.",
+        "D) realização de perícia de substância entorpecente e apreensão da carteira de identidade.",
+        "E) remoção do veículo e não recolhimento do documento de habilitação."
+        ],
+        correta: "B",
+        explicacao: "Medida administrativa (art. 269 CTB): retenção do veículo e transbordo do excesso de carga."
+  },
+
   // Título: Informática  - Simulado
   {
         pergunta: "Qual dos seguintes é um sistema operacional?",
@@ -314,6 +382,81 @@ const questoes = [
         ],
         correta: "D",
         explicacao: "Aumento de memória não afeta HD ou clock da CPU."
+  },
+  {
+      pergunta: "Qual é a extensão padrão de arquivos do Microsoft Excel?",
+      alternativas: [
+        "A) .xls",
+        "B) .xlsx",
+        "C) .xlsm",
+        "D) .csv",
+        "E) .ods"
+      ],
+      correta: "B",
+      explicacao: "A extensão padrão do Excel é .xlsx."
+  },
+
+  // Título: Conhecimentos Específicos  - Simulado
+
+  {
+      pergunta: [
+      "Conforme SOMMERVILLE (2011), tanto o SCRUM, como o XP, com base no manifesto ágil, compartilham de um mesmo conjunto de princípios dos métodos ágeis, tais como:",
+      "(1) Entrega incremental do software para o cliente.",
+      "(2) Documentação antes, desenvolvimento depois.",
+      "(3) Requisitos mudam, mudanças devem ser aceitas.",
+      "(4) Manter a simplicidade, eliminar a complexidade."
+      ],
+      alternativas: [
+      "Da relação apresentada, existem somente:",
+      "A) 1, 2 e 3",
+      "B) 1, 2 e 4",
+      "C) 2, 3 e 4",
+      "D) 1, 3 e 4",
+      "E) Nenhuma das alternativas anteriores."
+      ],
+      correta: "D",
+      explicacao: "Ágil ≠ documentação antes de desenvolver."
+  },
+  {
+      pergunta: [
+      "Leia atentamente a frase abaixo::",
+      "O padrão de arquitetura MVC, do inglês: ______,______, ______ é a base do gerenciamento de interação em muitos sistemas baseados em Web.", 
+      ],
+      alternativas: [
+      "Assinale a alternativa que preencha correta e respectivamente as lacunas",
+      "A) MEAN / VALUE / CORE",
+      "B) MEAN / VALUE / CONTROLLER",
+      "C) MODEL / VIEW / CONTROLLER",
+      "D) MODEL / VIEW / CORE",
+      "E) MODEL / VALUE / CONTROLLER"
+      ],
+      correta: "C",
+      explicacao: "MVC = Model, View, Controller."
+
+  },
+  {
+      pergunta: "Em relação aos conceitos de redes de computadores, assinale a alternativa correta:",
+      alternativas: [
+      "A) O protocolo TCP é utilizado para transmissão de dados em tempo real, como em chamadas de voz.",
+      "B) O protocolo UDP é utilizado para transmissão de dados em tempo real, como em chamadas de voz.",
+      "C) O protocolo TCP é utilizado para transmissão de dados em tempo real, como em chamadas de voz.",
+      "D) O protocolo UDP é utilizado para transmissão de dados em tempo real, como em chamadas de voz.",
+      "E) O protocolo TCP é utilizado para transmissão de dados em tempo real, como em chamadas de voz."
+      ],
+      correta: "B",
+      explicacao: "O protocolo UDP é utilizado para transmissão de dados em tempo real, como em chamadas de voz."
+  },
+  {
+      pergunta: "Quanto ao Modelo Entidade Relacionamento, é dada a definição: uma instância de uma entidade pode apresentar diversas instâncias de relacionamento com a outra entidade e viceversa, ou seja, refere-se a cardinalidade:",
+      alternativas: [
+      "A) um-para-muitos",
+      "B) muitos-para-muitos",
+      "C) muitos-para-um",
+      "D) um-para-um"
+      ],
+      correta: "B",
+      explicacao: "A cardinalidade muitos-para-muitos permite que uma instância de uma entidade esteja relacionada com várias instâncias de outra entidade e vice-versa."
+
   },
 
   // Título: Português  - Simulado
