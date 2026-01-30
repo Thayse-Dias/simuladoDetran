@@ -6,7 +6,7 @@ Este projeto tem como objetivo disponibilizar um simulado interativo para estudo
 
 **O simulado foi desenvolvido para permitir:**
 
-- Resolução de questões objetivas no formato CEBRASPE;
+- Resolução de questões objetivas;
 
 - Exibição de feedback imediato;
 

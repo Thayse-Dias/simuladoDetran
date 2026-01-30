@@ -44,10 +44,23 @@ p {
     margin: 10px 0;
     cursor: pointer;
     font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .option input {
     margin-right: 8px;
+}
+
+/* ===== FEEDBACK VISUAL NAS OPÇÕES ===== */
+.correct-option {
+    background: #dcfce7;
+    border-left: 5px solid #22c55e;
+}
+
+.wrong-option {
+    background: #fee2e2;
+    border-left: 5px solid #ef4444;
 }
 
 /* ===== BOTÃO ===== */
@@ -121,15 +134,10 @@ button:disabled {
     width: 0%;
 }
 
-/* ================= MOBILE ================= */
+/* ===== MOBILE ===== */
 @media (max-width: 600px) {
-
     body {
         padding: 12px;
-    }
-
-    .container {
-        width: 100%;
     }
 
     h2 {
@@ -139,7 +147,6 @@ button:disabled {
 
     .card {
         font-size: 16px;
-        padding: 16px;
     }
 
     .option {
@@ -148,10 +155,5 @@ button:disabled {
 
     button {
         font-size: 17px;
-        padding: 14px;
-    }
-
-    .explain {
-        font-size: 14px;
     }
 }

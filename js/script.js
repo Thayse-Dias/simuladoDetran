@@ -258,9 +258,276 @@ const questoes = [
         correta: "B",
         explicacao: "Medida administrativa (art. 269 CTB): retenção do veículo e transbordo do excesso de carga."
   },
-
-  // Título: Informática  - Simulado
   {
+        pergunta: "Conforme o Código de Trânsito Brasileiro, assinale a alternativa correta.",
+        alternativas: [
+        "A) O condutor que se recusar a ser submetido aos testes de alcoolemia terá sua Carteira Nacional de Habilitação recolhida e o veículo removido.",
+        "B) O condutor que se recusar a ser submetido aos testes de alcoolemia não sofrerá qualquer penalidade.",
+        "C) O condutor que se recusar a ser submetido aos testes de alcoolemia terá sua Carteira Nacional de Habilitação recolhida, mas o veículo não será removido.",
+        "D) O condutor que se recusar a ser submetido aos testes de alcoolemia terá apenas o veículo removido.",
+        "E) O condutor que se recusar a ser submetido aos testes de alcoolemia terá apenas sua Carteira Nacional de Habilitação recolhida."
+        ],
+        correta: "A",
+        explicacao: "CTB, art. 165-A."    
+  },
+  {
+        pergunta: [
+        "Acerca do Regimento Interno do Departamento Estadual de Trânsito de Alagoas (DETRAN/AL), assinale a alternativa correta.",
+        "Compete ao DETRAN/AL, na condição de órgão executivo de trânsito estadual:",
+        ],
+        alternativas: [ 
+        "A) Atuar exclusivamente na fiscalização de infrações de trânsito em vias urbanas, sem exercer atividades administrativas.",
+        "B) Executar apenas as políticas de trânsito definidas pela União, sem autonomia administrativa ou financeira.",
+        "C) Planejar, coordenar, fiscalizar e executar as atividades relacionadas ao trânsito no âmbito do Estado de Alagoas, em conformidade com o Código de Trânsito Brasileiro.",
+        "D) Exercer somente atividades de registro de veículos, sendo vedada sua atuação na habilitação de condutores.",
+        "E) Subordinar-se diretamente ao Conselho Nacional de Trânsito (CONTRAN), sem vínculo com a administração estadual."
+        ],
+        correta: "C",
+        explicacao: "O DETRAN/AL é responsável por planejar, coordenar, fiscalizar e executar as atividades relacionadas ao trânsito no Estado de Alagoas, conforme o CTB."
+  },
+  {
+        pergunta: "Acerca do Regimento Interno do Departamento Estadual de Trânsito de Alagoas (DETRAN/AL), assinale a alternativa correta. Compete ao DETRAN/AL, na condição de órgão executivo de trânsito estadual:",
+        alternativas: [
+            "A) Atuar exclusivamente na fiscalização de infrações de trânsito em vias urbanas, sem exercer atividades administrativas.",
+            "B) Executar apenas as políticas de trânsito definidas pela União, sem autonomia administrativa ou financeira.",
+            "C) Planejar, coordenar, fiscalizar e executar as atividades relacionadas ao trânsito no âmbito do Estado de Alagoas, em conformidade com o Código de Trânsito Brasileiro.",
+            "D) Exercer somente atividades de registro de veículos, sendo vedada sua atuação na habilitação de condutores.",
+            "E) Subordinar-se diretamente ao Conselho Nacional de Trânsito (CONTRAN), sem vínculo com a administração estadual."
+        ],
+        correta: "C",
+        explicacao: "O DETRAN/AL é o órgão executivo de trânsito estadual, competindo-lhe planejar, coordenar, fiscalizar e executar as atividades de trânsito, conforme o Código de Trânsito Brasileiro e o Regimento Interno."
+    },
+    {
+        pergunta: "Acerca do Regimento Interno do Departamento Estadual de Trânsito de Alagoas (DETRAN/AL), assinale a alternativa correta. No âmbito de sua estrutura organizacional, o DETRAN/AL:",
+        alternativas: [
+            "A) Não possui unidades descentralizadas, concentrando todas as atividades exclusivamente na capital.",
+            "B) Pode organizar-se em diretorias, coordenadorias, gerências e unidades administrativas, conforme previsto em seu Regimento Interno.",
+            "C) É composto apenas por órgãos colegiados, não havendo unidades executivas permanentes.",
+            "D) Subordina-se hierarquicamente aos municípios para execução das políticas de trânsito.",
+            "E) Possui estrutura definida exclusivamente pelo Conselho Nacional de Trânsito (CONTRAN)."
+        ],
+        correta: "B",
+        explicacao: "O Regimento Interno do DETRAN/AL prevê uma estrutura administrativa composta por diretorias, coordenadorias, gerências e unidades administrativas, visando à execução eficiente de suas competências."
+    },
+    {
+        pergunta: "Acerca do Regimento Interno do Departamento Estadual de Trânsito de Alagoas (DETRAN/AL), assinale a alternativa correta. Entre as competências relacionadas à habilitação de condutores, cabe ao DETRAN/AL:",
+        alternativas: [
+            "A) Conceder habilitação independentemente do cumprimento dos requisitos previstos no Código de Trânsito Brasileiro.",
+            "B) Delegar integralmente aos municípios todas as atividades relativas à formação e habilitação de condutores.",
+            "C) Realizar, controlar e fiscalizar os procedimentos de habilitação, renovação e cassação da Carteira Nacional de Habilitação, conforme a legislação vigente.",
+            "D) Atuar apenas como órgão consultivo, sem poder decisório sobre a habilitação de condutores.",
+            "E) Limitar-se ao registro estatístico dos condutores habilitados no Estado."
+        ],
+        correta: "C",
+        explicacao: "Compete ao DETRAN/AL executar e fiscalizar os procedimentos de habilitação de condutores, incluindo concessão, renovação e cassação da CNH, conforme o CTB e normas complementares."
+    },
+    {
+        pergunta: "Acerca do Regimento Interno do Departamento Estadual de Trânsito de Alagoas (DETRAN/AL), assinale a alternativa correta. No exercício do poder de polícia administrativa de trânsito, o DETRAN/AL:",
+        alternativas: [
+            "A) Não possui competência para aplicar penalidades, limitando-se à função educativa.",
+            "B) Pode aplicar penalidades e medidas administrativas previstas na legislação de trânsito, respeitados os limites legais.",
+            "C) Atua exclusivamente na orientação dos condutores, sem realizar fiscalização.",
+            "D) Depende de autorização prévia do CONTRAN para cada ação fiscalizatória realizada no Estado.",
+            "E) Exerce poder de polícia apenas em rodovias federais."
+        ],
+        correta: "B",
+        explicacao: "O DETRAN/AL exerce poder de polícia administrativa de trânsito, podendo fiscalizar, aplicar penalidades e adotar medidas administrativas previstas no Código de Trânsito Brasileiro."
+    },
+    {
+        pergunta: "Acerca do Regimento Interno do Departamento Estadual de Trânsito de Alagoas (DETRAN/AL), assinale a alternativa correta. Quanto à gestão administrativa e financeira do DETRAN/AL, é correto afirmar que:",
+        alternativas: [
+            "A) O órgão não possui autonomia administrativa, estando subordinado exclusivamente à União.",
+            "B) Todas as suas receitas devem ser repassadas integralmente aos municípios.",
+            "C) O DETRAN/AL dispõe de autonomia administrativa e financeira, nos limites da legislação estadual e das normas aplicáveis.",
+            "D) Suas despesas independem de previsão orçamentária.",
+            "E) O órgão não pode celebrar convênios ou parcerias institucionais."
+        ],
+        correta: "C",
+        explicacao: "O Regimento Interno assegura ao DETRAN/AL autonomia administrativa e financeira, observadas a legislação estadual e as normas que regem a administração pública."
+    },
+    {
+        pergunta: "Acerca do Regimento Interno do DETRAN/AL e do Código de Trânsito Brasileiro (CTB), assinale a alternativa correta. O DETRAN/AL, como órgão executivo de trânsito estadual:",
+        alternativas: [
+            "A) Integra o Sistema Nacional de Trânsito apenas de forma consultiva.",
+            "B) Atua exclusivamente na fiscalização de rodovias federais.",
+            "C) Integra o Sistema Nacional de Trânsito e exerce competências executivas no âmbito estadual.",
+            "D) Subordina-se hierarquicamente aos municípios.",
+            "E) Possui atuação restrita à educação para o trânsito."
+        ],
+        correta: "C",
+        explicacao: "O CTB define o DETRAN como órgão executivo de trânsito dos Estados, integrante do Sistema Nacional de Trânsito, com competências executivas no âmbito estadual."
+    },
+    {
+        pergunta: "Segundo o CTB e o Regimento Interno do DETRAN/AL, compete ao DETRAN:",
+        alternativas: [
+            "A) Fiscalizar exclusivamente infrações cometidas por pedestres.",
+            "B) Executar a fiscalização de trânsito, aplicar penalidades e medidas administrativas cabíveis.",
+            "C) Apenas registrar veículos automotores.",
+            "D) Atuar somente após autorização do CONTRAN.",
+            "E) Executar políticas de trânsito apenas no âmbito municipal."
+        ],
+        correta: "B",
+        explicacao: "O CTB atribui aos órgãos executivos estaduais de trânsito a fiscalização, aplicação de penalidades e adoção de medidas administrativas."
+    },
+    {
+        pergunta: "Conforme o CTB, a Carteira Nacional de Habilitação (CNH) é expedida:",
+        alternativas: [
+            "A) Pelo CONTRAN.",
+            "B) Pela Polícia Rodoviária Federal.",
+            "C) Pelo DETRAN do Estado ou do Distrito Federal.",
+            "D) Pelo órgão executivo municipal de trânsito.",
+            "E) Pelo DENATRAN exclusivamente."
+        ],
+        correta: "C",
+        explicacao: "De acordo com o CTB, a CNH é expedida pelo órgão executivo de trânsito do Estado ou do Distrito Federal."
+    },
+    {
+        pergunta: "Acerca da estrutura administrativa prevista no Regimento Interno do DETRAN/AL, é correto afirmar que:",
+        alternativas: [
+            "A) É composta exclusivamente por órgãos colegiados.",
+            "B) Não admite descentralização administrativa.",
+            "C) Pode incluir diretorias, gerências e unidades administrativas.",
+            "D) É definida exclusivamente por normas federais.",
+            "E) Subordina-se ao CONTRAN."
+        ],
+        correta: "C",
+        explicacao: "O Regimento Interno do DETRAN/AL prevê estrutura administrativa composta por diretorias, gerências e unidades administrativas."
+    },
+    {
+        pergunta: "Segundo o CTB, o poder de polícia administrativa de trânsito permite ao DETRAN:",
+        alternativas: [
+            "A) Apenas orientar condutores.",
+            "B) Aplicar penalidades e medidas administrativas.",
+            "C) Atuar sem limites legais.",
+            "D) Julgar crimes de trânsito.",
+            "E) Executar funções judiciais."
+        ],
+        correta: "B",
+        explicacao: "O poder de polícia administrativa de trânsito autoriza a fiscalização e aplicação de penalidades previstas em lei."
+    },
+    {
+        pergunta: "De acordo com o Regimento Interno do DETRAN/AL, quanto à sua gestão financeira:",
+        alternativas: [
+            "A) Não possui autonomia financeira.",
+            "B) Depende exclusivamente de repasses municipais.",
+            "C) Possui autonomia administrativa e financeira, nos limites legais.",
+            "D) Não integra o orçamento estadual.",
+            "E) Está subordinado financeiramente ao CONTRAN."
+        ],
+        correta: "C",
+        explicacao: "O Regimento Interno assegura ao DETRAN/AL autonomia administrativa e financeira, observadas as normas legais."
+    },
+    {
+        pergunta: "Segundo o CTB, o Sistema Nacional de Trânsito tem como objetivo:",
+        alternativas: [
+            "A) Apenas punir infrações de trânsito.",
+            "B) Estabelecer normas penais de trânsito.",
+            "C) Exercício das atividades de planejamento, administração, fiscalização e educação para o trânsito.",
+            "D) Julgar crimes de trânsito.",
+            "E) Atuar exclusivamente em rodovias federais."
+        ],
+        correta: "C",
+        explicacao: "O CTB define que o Sistema Nacional de Trânsito visa ao planejamento, administração, fiscalização e educação para o trânsito."
+    },
+    {
+        pergunta: "Conforme o CTB, compete aos órgãos executivos estaduais de trânsito:",
+        alternativas: [
+            "A) Julgar recursos em última instância.",
+            "B) Expedir a Permissão para Dirigir e a CNH.",
+            "C) Elaborar leis de trânsito.",
+            "D) Atuar exclusivamente como órgãos consultivos.",
+            "E) Fiscalizar apenas pedestres."
+        ],
+        correta: "B",
+        explicacao: "O CTB atribui aos órgãos executivos estaduais a expedição da Permissão para Dirigir e da CNH."
+    },
+    {
+        pergunta: "Acerca da atuação do DETRAN/AL na educação para o trânsito, é correto afirmar que:",
+        alternativas: [
+            "A) Não possui qualquer competência nessa área.",
+            "B) Atua apenas mediante autorização do CONTRAN.",
+            "C) Pode promover ações educativas conforme o CTB e o Regimento Interno.",
+            "D) Atua exclusivamente no ensino superior.",
+            "E) Tem atuação restrita a campanhas nacionais."
+        ],
+        correta: "C",
+        explicacao: "O CTB e o Regimento Interno preveem a atuação dos órgãos executivos estaduais em ações de educação para o trânsito."
+    },
+    {
+        pergunta: "Segundo o CTB, o registro e o licenciamento de veículos são de competência:",
+        alternativas: [
+            "A) Do CONTRAN.",
+            "B) Da Polícia Rodoviária Federal.",
+            "C) Do órgão executivo de trânsito do Estado.",
+            "D) Do órgão executivo municipal.",
+            "E) Do DENATRAN exclusivamente."
+        ],
+        correta: "C",
+        explicacao: "O CTB atribui aos órgãos executivos estaduais de trânsito o registro e o licenciamento de veículos."
+    },
+    {
+        pergunta: "À luz do Código de Trânsito Brasileiro (CTB) e do Regimento Interno do DETRAN/AL, assinale a alternativa correta. O DETRAN/AL, enquanto órgão executivo de trânsito estadual, exerce suas competências:",
+        alternativas: [
+            "A) Apenas de forma normativa, sem atribuições executivas.",
+            "B) Exclusivamente em caráter suplementar às decisões do CONTRAN.",
+            "C) De forma executiva, administrativa e fiscalizatória, no âmbito de sua circunscrição.",
+            "D) Somente quando provocado pelos órgãos municipais.",
+            "E) Apenas mediante delegação da Polícia Rodoviária Federal."
+        ],
+        correta: "C",
+        explicacao: "O CTB define os DETRANs como órgãos executivos de trânsito dos Estados, com competências administrativas, executivas e fiscalizatórias dentro de sua circunscrição."
+    },
+    {
+        pergunta: "Segundo o CTB, compete aos órgãos executivos estaduais de trânsito, como o DETRAN/AL, julgar:",
+        alternativas: [
+            "A) Recursos contra penalidades impostas por órgãos municipais, em última instância.",
+            "B) Crimes de trânsito cometidos em rodovias estaduais.",
+            "C) Recursos interpostos contra penalidades por eles aplicadas.",
+            "D) Infrações cometidas por pedestres e ciclistas exclusivamente.",
+            "E) Recursos contra decisões do CONTRAN."
+        ],
+        correta: "C",
+        explicacao: "De acordo com o CTB, os órgãos executivos estaduais de trânsito julgam os recursos interpostos contra penalidades que eles próprios aplicarem."
+    },
+    {
+        pergunta: "Conforme o Regimento Interno do DETRAN/AL e os princípios da Administração Pública, é correto afirmar que a atuação do órgão deve observar:",
+        alternativas: [
+            "A) Exclusivamente o princípio da eficiência.",
+            "B) Apenas as normas internas do próprio DETRAN.",
+            "C) Os princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+            "D) Apenas as diretrizes do CONTRAN.",
+            "E) Os princípios definidos unicamente pelo Sistema Nacional de Trânsito."
+        ],
+        correta: "C",
+        explicacao: "Como autarquia estadual, o DETRAN/AL submete-se aos princípios constitucionais da Administração Pública, previstos no art. 37 da Constituição Federal."
+    },
+    {
+        pergunta: "À luz do CTB, a integração do DETRAN/AL ao Sistema Nacional de Trânsito implica:",
+        alternativas: [
+            "A) Subordinação hierárquica direta ao CONTRAN.",
+            "B) Atuação isolada, sem cooperação com outros órgãos.",
+            "C) Atuação coordenada com os demais órgãos e entidades do Sistema.",
+            "D) Exclusão das competências municipais.",
+            "E) Exercício apenas de funções consultivas."
+        ],
+        correta: "C",
+        explicacao: "O Sistema Nacional de Trânsito é estruturado de forma integrada e cooperativa, não havendo subordinação hierárquica entre seus órgãos."
+    },
+    {
+        pergunta: "Segundo o CTB e o Regimento Interno do DETRAN/AL, no que se refere à educação para o trânsito, é correto afirmar que:",
+        alternativas: [
+            "A) Trata-se de atribuição exclusiva do Ministério da Educação.",
+            "B) Compete apenas aos órgãos municipais de trânsito.",
+            "C) É uma atribuição compartilhada entre os órgãos do Sistema Nacional de Trânsito.",
+            "D) O DETRAN atua apenas como executor de campanhas federais.",
+            "E) Não integra as competências dos órgãos executivos estaduais."
+        ],
+        correta: "C",
+        explicacao: "O CTB estabelece que a educação para o trânsito é dever dos órgãos e entidades integrantes do Sistema Nacional de Trânsito, incluindo os DETRANs."
+    },
+
+  // Título: Informática / Conhecimento Específico  - Simulado
+    {
         pergunta: "Qual dos seguintes é um sistema operacional?",
         alternativas: [
         "A) Microsoft Word",
@@ -271,8 +538,8 @@ const questoes = [
         ],
         correta: "C",
         explicacao: "Linux é um sistema operacional."
-  },
-  {
+    },
+    {
         pergunta: "Qual dispositivo é considerado hardware?",
         alternativas: [
         "A) Windows",
@@ -395,9 +662,126 @@ const questoes = [
       correta: "B",
       explicacao: "A extensão padrão do Excel é .xlsx."
   },
-
-  // Título: Conhecimentos Específicos  - Simulado
-
+  {
+        pergunta: "Em sistemas operacionais modernos, a principal função do kernel é:",
+        alternativas: [
+        "A) Fornecer interface gráfica ao usuário",
+        "B) Executar aplicativos de usuário",
+        "C) Gerenciar recursos do sistema",
+        "D) Armazenar arquivos temporários",
+        "E) Controlar apenas dispositivos de entrada"
+        ],
+        correta: "C",
+        explicacao: "O kernel é o núcleo do sistema operacional, responsável pelo gerenciamento de CPU, memória, processos e dispositivos."
+  },
+  {
+        pergunta: "No contexto de redes de computadores, o protocolo HTTP é utilizado para:",
+        alternativas: [
+        "A) Transferência segura de arquivos",
+        "B) Envio de e-mails",
+        "C) Comunicação entre navegadores e servidores web",
+        "D) Gerenciamento de endereços IP",
+        "E) Criptografia de dados"
+        ],
+        correta: "C",
+        explicacao: "O HTTP é o protocolo base da Web, usado para comunicação entre cliente (browser) e servidor."
+  },
+  {
+        pergunta: "O software que permite a interação direta entre usuário e hardware é o:",
+        alternativas: [
+        "A) Aplicativo",
+        "B) Compilador",
+        "C) Sistema operacional",
+        "D) Firmware",
+        "E) Middleware"
+        ],
+        correta: "C",
+        explicacao: "O sistema operacional atua como intermediário entre usuário, aplicativos e hardware."
+  },
+  {
+        pergunta: "No pacote LibreOffice ou Microsoft Office, a ferramenta mais adequada para criação de apresentações é:",
+        alternativas: [
+        "A) Writer / Word",
+        "B) Calc / Excel",
+        "C) Base / Access",
+        "D) Impress / PowerPoint",
+        "E) Draw / Publisher"
+        ],
+        correta: "D",
+        explicacao: "Impress (LibreOffice) e PowerPoint (Microsoft) são usados para apresentações."
+  },
+  {
+        pergunta: "Em segurança da informação, o princípio da integridade refere-se à:",
+        alternativas: [
+        "A) Garantia de acesso contínuo",
+        "B) Proteção contra divulgação indevida",
+        "C) Manutenção da exatidão das informações",
+        "D) Recuperação após falhas",
+        "E) Identificação do usuário"
+        ],
+        correta: "C",
+        explicacao: "Integridade garante que os dados não sejam alterados indevidamente."
+  },
+  {
+        pergunta: "Em bancos de dados relacionais, a chave primária tem como principal função:",
+        alternativas: [
+        "A) Permitir valores nulos",
+        "B) Identificar unicamente um registro",
+        "C) Relacionar tabelas secundárias",
+        "D) Melhorar apenas o desempenho",
+        "E) Controlar permissões de acesso"
+        ],
+        correta: "B",
+        explicacao: "A chave primária garante unicidade e identificação de cada registro."
+  },
+  {
+        pergunta: "O conceito de virtualização permite:",
+        alternativas: [
+        "A) A execução exclusiva de um sistema por hardware",
+        "B) A criação de múltiplos ambientes isolados em um mesmo hardware",
+        "C) A substituição do sistema operacional",
+        "D) O aumento físico da capacidade do servidor",
+        "E) A eliminação do hypervisor"
+        ],
+        correta: "B",
+        explicacao: "Virtualização permite rodar várias máquinas virtuais isoladas em um mesmo hardware físico."
+  },
+  {
+        pergunta: "Em criptografia, o uso de chaves assimétricas caracteriza-se por:",
+        alternativas: [
+        "A) Utilização de uma única chave secreta",
+        "B) Uso exclusivo em redes locais",
+        "C) Emprego de par de chaves pública e privada",
+        "D) Maior velocidade que criptografia simétrica",
+        "E) Eliminação da necessidade de certificados"
+        ],
+        correta: "C",
+        explicacao: "Criptografia assimétrica utiliza um par de chaves: uma pública e outra privada."
+  },
+  {
+        pergunta: "No modelo OSI, a camada responsável pelo roteamento de pacotes é a:",
+        alternativas: [
+        "A) Aplicação",
+        "B) Transporte",
+        "C) Rede",
+        "D) Enlace",
+        "E) Física"
+        ],
+        correta: "C",
+        explicacao: "A camada de rede é responsável pelo roteamento e endereçamento lógico (IP)."
+  },
+  {
+        pergunta: "Em engenharia de software, o conceito de acoplamento está relacionado:",
+        alternativas: [
+        "A) À quantidade de classes no sistema",
+        "B) Ao grau de dependência entre módulos",
+        "C) À documentação do código",
+        "D) À interface gráfica",
+        "E) À performance do sistema"
+        ],
+        correta: "B",
+        explicacao: "Baixo acoplamento indica menor dependência entre módulos, facilitando manutenção e evolução do sistema."
+  },
   {
       pergunta: [
       "Conforme SOMMERVILLE (2011), tanto o SCRUM, como o XP, com base no manifesto ágil, compartilham de um mesmo conjunto de princípios dos métodos ágeis, tais como:",
@@ -457,6 +841,357 @@ const questoes = [
       correta: "B",
       explicacao: "A cardinalidade muitos-para-muitos permite que uma instância de uma entidade esteja relacionada com várias instâncias de outra entidade e vice-versa."
 
+  },
+  {
+        pergunta: "No âmbito do DETRAN/AL, os sistemas de informação têm como finalidade principal:",
+        alternativas: [
+        "A) Apenas armazenar dados históricos sem uso administrativo",
+        "B) Apoiar a gestão, fiscalização e tomada de decisão no trânsito",
+        "C) Substituir integralmente a atuação humana",
+        "D) Atender exclusivamente às demandas federais",
+        "E) Eliminar a necessidade de normas legais"
+        ],
+        correta: "B",
+        explicacao: "Os sistemas de informação apoiam a gestão, a fiscalização e o processo decisório, sendo ferramentas estratégicas do DETRAN."
+  },
+  {
+        pergunta: "Segundo o CTB, os órgãos do Sistema Nacional de Trânsito devem:",
+        alternativas: [
+        "A) Operar sistemas de forma isolada",
+        "B) Centralizar dados apenas no CONTRAN",
+        "C) Compartilhar informações e integrar sistemas",
+        "D) Utilizar exclusivamente sistemas estaduais",
+        "E) Restringir acesso aos dados de trânsito"
+        ],
+        correta: "C",
+        explicacao: "O CTB prevê a integração e o compartilhamento de informações entre os órgãos do Sistema Nacional de Trânsito."
+  },
+  {
+        pergunta: "A governança de TI no DETRAN/AL deve estar alinhada:",
+        alternativas: [
+        "A) Apenas ao orçamento disponível",
+        "B) Somente às decisões técnicas da área de TI",
+        "C) Aos objetivos estratégicos e às políticas públicas de trânsito",
+        "D) Exclusivamente às diretrizes do DENATRAN",
+        "E) À terceirização total dos sistemas"
+        ],
+        correta: "C",
+        explicacao: "Governança de TI envolve alinhamento estratégico entre tecnologia, objetivos institucionais e políticas públicas."
+  },
+  {
+        pergunta: "No desenvolvimento de sistemas do DETRAN/AL, a confidencialidade das informações refere-se:",
+        alternativas: [
+        "A) À garantia de acesso irrestrito aos dados",
+        "B) À proteção contra acesso não autorizado",
+        "C) À eliminação de registros históricos",
+        "D) Ao livre compartilhamento de dados sensíveis",
+        "E) À substituição de controles de acesso"
+        ],
+        correta: "B",
+        explicacao: "Confidencialidade garante que apenas usuários autorizados tenham acesso às informações."
+  },
+  {
+        pergunta: "Os sistemas de registro de veículos do DETRAN/AL devem:",
+        alternativas: [
+        "A) Funcionar de forma independente do CTB",
+        "B) Registrar apenas veículos novos",
+        "C) Manter dados íntegros e atualizados",
+        "D) Ser acessíveis sem autenticação",
+        "E) Operar sem políticas de backup"
+        ],
+        correta: "C",
+        explicacao: "A integridade e atualização dos dados são essenciais para a confiabilidade dos sistemas."
+  },
+  {
+        pergunta: "Em sistemas computacionais, o conceito de multitarefa refere-se:",
+        alternativas: [
+        "A) À execução simultânea de vários programas em múltiplos computadores",
+        "B) À capacidade do sistema operacional executar vários processos de forma concorrente",
+        "C) À execução de um único processo por vez",
+        "D) Ao uso exclusivo de aplicações em segundo plano",
+        "E) À substituição do sistema operacional"
+        ],
+        correta: "B",
+        explicacao: "Multitarefa permite que o sistema operacional gerencie vários processos de forma concorrente, otimizando o uso da CPU."
+  },
+  {
+        pergunta: "No contexto de segurança da informação, o controle de acesso baseado em papéis (RBAC) tem como objetivo:",
+        alternativas: [
+        "A) Conceder permissões individuais para cada usuário",
+        "B) Eliminar a necessidade de autenticação",
+        "C) Atribuir permissões com base nas funções exercidas",
+        "D) Garantir criptografia de ponta a ponta",
+        "E) Restringir o acesso apenas por endereço IP"
+        ],
+        correta: "C",
+        explicacao: "No modelo RBAC, os usuários recebem permissões conforme seus papéis organizacionais."
+  },
+  {
+        pergunta: "Em desenvolvimento de software, o uso de sistemas de controle de versão, como o Git, permite:",
+        alternativas: [
+        "A) Executar testes automatizados",
+        "B) Gerenciar versões e histórico do código-fonte",
+        "C) Compilar aplicações automaticamente",
+        "D) Substituir documentação técnica",
+        "E) Eliminar conflitos de código"
+        ],
+        correta: "B",
+        explicacao: "Sistemas de controle de versão permitem acompanhar alterações, histórico e colaboração no desenvolvimento."
+  },
+  {
+        pergunta: "No modelo cliente-servidor, é correto afirmar que:",
+        alternativas: [
+        "A) O servidor sempre inicia a comunicação",
+        "B) Cliente e servidor possuem funções idênticas",
+        "C) O cliente solicita serviços e o servidor responde",
+        "D) O servidor não pode atender múltiplos clientes",
+        "E) A comunicação ocorre apenas em redes locais"
+        ],
+        correta: "C",
+        explicacao: "No modelo cliente-servidor, o cliente faz requisições e o servidor fornece os serviços."
+  },
+  {
+        pergunta: "Em testes de software, o teste de regressão tem como finalidade:",
+        alternativas: [
+        "A) Avaliar desempenho do sistema",
+        "B) Verificar segurança da aplicação",
+        "C) Garantir que novas alterações não afetem funcionalidades existentes",
+        "D) Validar requisitos do usuário",
+        "E) Substituir testes unitários"
+        ],
+        correta: "C",
+        explicacao: "Testes de regressão asseguram que mudanças no código não introduzam novos defeitos em funcionalidades já testadas."
+  },
+  {
+        pergunta: "Em arquitetura de software, o padrão MVC (Model-View-Controller) tem como principal objetivo:",
+        alternativas: [
+        "A) Aumentar o desempenho da aplicação",
+        "B) Separar responsabilidades, facilitando manutenção e evolução",
+        "C) Eliminar a necessidade de banco de dados",
+        "D) Centralizar regras de negócio na interface",
+        "E) Substituir testes automatizados"
+        ],
+        correta: "B",
+        explicacao: "O MVC promove separação de responsabilidades entre dados (Model), interface (View) e controle de fluxo (Controller), facilitando manutenção e escalabilidade."
+  },
+  {
+        pergunta: "Em bancos de dados, a normalização até a 3ª Forma Normal (3FN) tem como objetivo principal:",
+        alternativas: [
+        "A) Melhorar apenas o desempenho das consultas",
+        "B) Eliminar redundâncias e dependências transitivas",
+        "C) Aumentar o tamanho das tabelas",
+        "D) Evitar o uso de chaves primárias",
+        "E) Garantir criptografia dos dados"
+        ],
+        correta: "B",
+        explicacao: "A 3FN elimina dependências transitivas, reduzindo redundância e anomalias de atualização."
+  },
+  {
+        pergunta: "No contexto de APIs RESTful, o método HTTP PUT é corretamente utilizado para:",
+        alternativas: [
+        "A) Criar um novo recurso sem identificação",
+        "B) Atualizar ou substituir completamente um recurso existente",
+        "C) Consultar informações sem efeito colateral",
+        "D) Remover parcialmente um recurso",
+        "E) Executar operações assíncronas"
+        ],
+        correta: "B",
+        explicacao: "PUT é usado para atualizar ou substituir integralmente um recurso identificado."
+  },
+  {
+        pergunta: "Em segurança da informação, o princípio do menor privilégio determina que:",
+        alternativas: [
+        "A) Todos os usuários devem ter acesso total ao sistema",
+        "B) Permissões devem ser concedidas temporariamente",
+        "C) Usuários devem possuir apenas as permissões estritamente necessárias",
+        "D) O acesso deve ser baseado apenas em confiança",
+        "E) O controle de acesso é dispensável em sistemas internos"
+        ],
+        correta: "C",
+        explicacao: "O menor privilégio reduz riscos ao limitar acessos apenas ao necessário para execução das funções."
+  },
+  {
+        pergunta: "Em engenharia de software, a principal vantagem do uso de integração contínua (CI) é:",
+        alternativas: [
+        "A) Eliminar a necessidade de testes",
+        "B) Reduzir falhas ao integrar código frequentemente com validação automática",
+        "C) Substituir o controle de versão",
+        "D) Garantir desempenho máximo da aplicação",
+        "E) Evitar a necessidade de documentação"
+        ],
+        correta: "B",
+        explicacao: "A integração contínua detecta erros rapidamente ao integrar código de forma frequente com testes automatizados."
+  },
+  {       
+        pergunta: "Em sistemas operacionais modernos, o escalonamento de processos tem como objetivo principal:",
+        alternativas: [
+            "A) Garantir exclusividade de execução",
+            "B) Otimizar o uso da CPU e reduzir tempo de espera",
+            "C) Eliminar processos em segundo plano",
+            "D) Aumentar o consumo de memória",
+            "E) Priorizar apenas processos do sistema"
+        ],
+        correta: "B",
+        explicacao: "O escalonamento busca maximizar o uso da CPU e melhorar o tempo de resposta."
+    },
+    {
+        pergunta: "O conceito de deadlock em sistemas operacionais ocorre quando:",
+        alternativas: [
+            "A) Um processo é finalizado abruptamente",
+            "B) Dois ou mais processos aguardam indefinidamente por recursos",
+            "C) A CPU entra em modo ocioso",
+            "D) Há excesso de memória disponível",
+            "E) O sistema reinicia automaticamente"
+        ],
+        correta: "B",
+        explicacao: "Deadlock ocorre quando processos ficam presos esperando recursos mutuamente."
+    },
+    {
+        pergunta: "No modelo OSI, a camada responsável pela criptografia e compressão é:",
+        alternativas: [
+            "A) Aplicação",
+            "B) Apresentação",
+            "C) Sessão",
+            "D) Transporte",
+            "E) Rede"
+        ],
+        correta: "B",
+        explicacao: "A camada de apresentação trata da formatação, criptografia e compressão."
+    },
+    {
+        pergunta: "O protocolo TCP diferencia-se do UDP principalmente por:",
+        alternativas: [
+            "A) Ser mais rápido",
+            "B) Não usar portas",
+            "C) Garantir entrega confiável e ordenada",
+            "D) Operar apenas em redes locais",
+            "E) Não permitir controle de fluxo"
+        ],
+        correta: "C",
+        explicacao: "TCP garante entrega confiável, controle de erros e ordenação."
+    },
+
+    {
+        pergunta: "Uma transação em banco de dados que respeita ACID garante:",
+        alternativas: [
+            "A) Apenas consistência",
+            "B) Atomicidade, consistência, isolamento e durabilidade",
+            "C) Alta disponibilidade",
+            "D) Escalabilidade horizontal",
+            "E) Controle de acesso"
+        ],
+        correta: "B",
+        explicacao: "ACID define propriedades fundamentais das transações."
+    },
+    {
+        pergunta: "O isolamento em transações visa:",
+        alternativas: [
+            "A) Eliminar concorrência",
+            "B) Permitir leitura suja",
+            "C) Garantir que transações concorrentes não interfiram",
+            "D) Aumentar a redundância",
+            "E) Substituir locks"
+        ],
+        correta: "C",
+        explicacao: "Isolamento impede interferência entre transações simultâneas."
+    },
+
+    {
+        pergunta: "O princípio SOLID conhecido como Single Responsibility determina que:",
+        alternativas: [
+            "A) Classes devem herdar de uma única classe",
+            "B) Um módulo deve ter apenas uma razão para mudar",
+            "C) Interfaces devem ser genéricas",
+            "D) Métodos devem ser estáticos",
+            "E) Classes devem ser abstratas"
+        ],
+        correta: "B",
+        explicacao: "Cada classe deve ter uma única responsabilidade."
+    },
+    {
+        pergunta: "Baixo acoplamento em software significa:",
+        alternativas: [
+            "A) Módulos altamente dependentes",
+            "B) Código duplicado",
+            "C) Menor dependência entre componentes",
+            "D) Maior complexidade",
+            "E) Menor reutilização"
+        ],
+        correta: "C",
+        explicacao: "Baixo acoplamento facilita manutenção e evolução."
+    },
+
+    {
+        pergunta: "Em APIs REST, o método DELETE é utilizado para:",
+        alternativas: [
+            "A) Atualizar parcialmente um recurso",
+            "B) Criar um novo recurso",
+            "C) Remover um recurso identificado",
+            "D) Consultar dados",
+            "E) Executar processos assíncronos"
+        ],
+        correta: "C",
+        explicacao: "DELETE remove o recurso identificado pela URI."
+    },
+    {
+        pergunta: "Uma API RESTful bem projetada deve ser:",
+        alternativas: [
+            "A) Dependente de sessão",
+            "B) Statefull",
+            "C) Stateless",
+            "D) Exclusiva para XML",
+            "E) Dependente de SOAP"
+        ],
+        correta: "C",
+        explicacao: "REST exige que cada requisição seja independente."
+    },
+    {
+        pergunta: "O uso de hash criptográfico tem como principal finalidade:",
+        alternativas: [
+            "A) Criptografar dados reversivelmente",
+            "B) Garantir confidencialidade",
+            "C) Verificar integridade",
+            "D) Garantir disponibilidade",
+            "E) Gerar chaves públicas"
+        ],
+        correta: "C",
+        explicacao: "Hash é usado para verificação de integridade."
+    },
+    {
+        pergunta: "O ataque conhecido como SQL Injection explora:",
+        alternativas: [
+            "A) Falhas de hardware",
+            "B) Configurações de rede",
+            "C) Validação inadequada de entradas",
+            "D) Criptografia forte",
+            "E) Firewalls mal configurados"
+        ],
+        correta: "C",
+        explicacao: "Explora entradas mal validadas em comandos SQL."
+    },
+    {
+        pergunta: "Integração Contínua (CI) tem como objetivo:",
+        alternativas: [
+            "A) Eliminar testes",
+            "B) Integrar código frequentemente com validação automática",
+            "C) Substituir deploy",
+            "D) Eliminar versionamento",
+            "E) Garantir alta disponibilidade"
+        ],
+        correta: "B",
+        explicacao: "CI reduz erros integrando código frequentemente."
+    },
+    {
+        pergunta: "Testes automatizados contribuem principalmente para:",
+        alternativas: [
+            "A) Aumentar retrabalho",
+            "B) Reduzir confiabilidade",
+            "C) Detectar erros precocemente",
+            "D) Eliminar documentação",
+            "E) Substituir testes manuais em 100%"
+        ],
+        correta: "C",
+        explicacao: "Automação detecta falhas cedo no ciclo de desenvolvimento."
   },
 
   // Título: Português  - Simulado
@@ -576,6 +1311,15 @@ let index = 0;
 let acertos = 0;
 let respondido = false;
 let tempo = 1800;
+let respostaUsuario = null;
+
+// ================= EMBARALHAR QUESTÕES =================
+function embaralharQuestoes(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 // ================= TIMER =================
 const timerInterval = setInterval(() => {
@@ -603,9 +1347,23 @@ function render() {
     `;
 
     q.alternativas.forEach(alt => {
+        const letra = alt[0];
+        let classe = "";
+
+        if (respondido) {
+            if (letra === q.correta) classe = "correct-option";
+            else if (letra === respostaUsuario) classe = "wrong-option";
+        }
+
         html += `
-            <label class="option">
-                <input type="radio" name="resposta" value="${alt[0]}" ${respondido ? "disabled" : ""}>
+            <label class="option ${classe}">
+                <input
+                    type="radio"
+                    name="resposta"
+                    value="${letra}"
+                    ${respondido ? "disabled" : ""}
+                    ${letra === respostaUsuario ? "checked" : ""}
+                >
                 ${alt}
             </label>
         `;
@@ -625,9 +1383,12 @@ document.getElementById("actionBtn").onclick = () => {
         const marcada = document.querySelector("input[name='resposta']:checked");
         if (!marcada) return alert("Selecione uma alternativa");
 
+        respostaUsuario = marcada.value;
         respondido = true;
 
-        if (marcada.value === questoes[index].correta) {
+        render(); // reaplica classes visuais
+
+        if (respostaUsuario === questoes[index].correta) {
             acertos++;
             quiz.innerHTML += `<div class="correct">✅ Correto</div>`;
         } else {
@@ -636,9 +1397,11 @@ document.getElementById("actionBtn").onclick = () => {
 
         quiz.innerHTML += `<div class="explain">📘 ${questoes[index].explicacao}</div>`;
         document.getElementById("actionBtn").innerText = "➡️ Próxima questão";
+
     } else {
         index++;
         respondido = false;
+        respostaUsuario = null;
 
         if (index >= questoes.length) {
             finalizar();
@@ -663,4 +1426,5 @@ function finalizar() {
 }
 
 // ================= START =================
+embaralharQuestoes(questoes);
 render();
