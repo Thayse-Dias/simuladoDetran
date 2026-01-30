@@ -803,7 +803,8 @@ const questoes = [
   },
   {
       pergunta: [
-      "Leia atentamente a frase abaixo: O padrão de arquitetura MVC, do inglês: ______,______, ______ é a base do gerenciamento de interação em muitos sistemas baseados em Web.", 
+      "Leia atentamente a frase abaixo:",
+      "O padrão de arquitetura MVC, do inglês: ______,______, ______ é a base do gerenciamento de interação em muitos sistemas baseados em Web.", 
       ],
       alternativas: [
       "Assinale a alternativa que preencha correta e respectivamente as lacunas",
@@ -1195,6 +1196,18 @@ const questoes = [
 
   // Título: Português  - Simulado
   {
+        pergunta: "Qual é o plural de 'cidadão'?",
+        alternativas: [
+        "A) Cidadãos",  
+        "B) Cidadães",
+        "C) Cidadões",
+        "D) Cidadãs",
+        "E) Cidadãoses"
+        ],
+        correta: "A",
+        explicacao: "O plural de 'cidadão' é 'cidadãos'."
+  },
+  {
         pergunta: "Qual é o antônimo de 'feliz'?",
         alternativas: [
         "A) Alegre",
@@ -1290,133 +1303,12 @@ const questoes = [
         correta: "E",
         explicacao: "Verbo impessoal."
   },
-  {
-        pergunta: "Assinale a alternativa em que o uso da crase está CORRETO.",
-        alternativas: [
-            "A) Entregou o documento à secretária da diretoria.",
-            "B) Chegou a à reunião com atraso.",
-            "C) Referiu-se à pessoas desconhecidas.",
-            "D) Dirigiu-se a àquela repartição pública.",
-            "E) Voltou a casa às pressas."
-        ],
-        correta: "A",
-        explicacao: "Há crase na fusão da preposição 'a' com o artigo feminino 'a' antes de 'secretária'. As demais alternativas apresentam erro de duplicação ou ausência indevida de crase."
-    },
-    {
-        pergunta: "No trecho “Os servidores que trabalham com dedicação são valorizados”, a oração destacada é classificada como:",
-        alternativas: [
-            "A) Oração subordinada substantiva.",
-            "B) Oração subordinada adjetiva restritiva.",
-            "C) Oração subordinada adjetiva explicativa.",
-            "D) Oração coordenada explicativa.",
-            "E) Oração subordinada adverbial."
-        ],
-        correta: "B",
-        explicacao: "A oração 'que trabalham com dedicação' restringe o sentido de 'servidores', caracterizando oração subordinada adjetiva restritiva."
-    },
-    {
-        pergunta: "Assinale a alternativa em que o emprego do pronome oblíquo está INCORRETO segundo a norma-padrão.",
-        alternativas: [
-            "A) Entregaram-me os relatórios ontem.",
-            "B) Não lhe informaram o ocorrido.",
-            "C) Sempre se referiu a ela com respeito.",
-            "D) Trouxeram para mim resolver o problema.",
-            "E) O diretor o chamou para conversar."
-        ],
-        correta: "D",
-        explicacao: "O correto seria 'Trouxeram para eu resolver o problema', pois o pronome reto é exigido antes de verbo no infinitivo com sujeito expresso."
-    },
-    {
-        pergunta: "Em qual alternativa ocorre ERRO de concordância verbal?",
-        alternativas: [
-            "A) Mais de um servidor solicitou revisão.",
-            "B) Faltou documentos importantes no processo.",
-            "C) Cerca de 20 candidatos compareceram.",
-            "D) A maioria dos alunos aprovou a medida.",
-            "E) Houve problemas durante a aplicação."
-        ],
-        correta: "B",
-        explicacao: "O verbo deveria concordar com 'documentos': 'Faltaram documentos importantes no processo'."
-    },
-    {
-        pergunta: "Assinale a frase em que a vírgula foi empregada corretamente.",
-        alternativas: [
-            "A) Os candidatos, que estudaram passaram no concurso.",
-            "B) O diretor decidiu, cancelar a reunião.",
-            "C) A prova aplicada ontem, foi difícil.",
-            "D) Os alunos que se dedicaram, obtiveram êxito.",
-            "E) Os servidores, após a reunião, retornaram ao trabalho."
-        ],
-        correta: "E",
-        explicacao: "A vírgula isola corretamente o adjunto adverbial deslocado 'após a reunião'."
-    },
-    {
-        pergunta: "O sentido da frase será alterado caso se substitua corretamente o termo sublinhado por:",
-        alternativas: [
-            "A) 'Todavia' por 'portanto'.",
-            "B) 'Entretanto' por 'contudo'.",
-            "C) 'Porque' por 'pois' em início de frase.",
-            "D) 'Embora' por 'logo'.",
-            "E) 'Assim' por 'mas'."
-        ],
-        correta: "B",
-        explicacao: "'Entretanto' e 'contudo' são conjunções adversativas equivalentes, sem alteração de sentido."
-    },
-    {
-        pergunta: "Assinale a alternativa em que há ambiguidade sintática.",
-        alternativas: [
-            "A) O gerente elogiou o funcionário dedicado.",
-            "B) O candidato apresentou recurso administrativo.",
-            "C) A banca divulgou o gabarito oficial.",
-            "D) O servidor analisou o processo ontem.",
-            "E) A comissão avaliou as provas objetivas."
-        ],
-        correta: "A",
-        explicacao: "A frase pode indicar que o funcionário é dedicado ou que o ato de elogiar foi dedicado, gerando ambiguidade."
-    },
-    {
-        pergunta: "Em qual alternativa a palavra destacada é um advérbio?",
-        alternativas: [
-            "A) Ele falou baixo durante a reunião.",
-            "B) O baixo nível do exame surpreendeu.",
-            "C) Comprou um carro novo.",
-            "D) O novo diretor chegou cedo.",
-            "E) O estudo sério garante aprovação."
-        ],
-        correta: "A",
-        explicacao: "Em 'falou baixo', o termo 'baixo' indica modo, funcionando como advérbio."
-    },
-    {
-        pergunta: "Assinale a alternativa em que o período é composto por coordenação.",
-        alternativas: [
-            "A) Estudou bastante porque queria aprovação.",
-            "B) Quando chegou, percebeu o erro.",
-            "C) Estudou bastante e foi aprovado.",
-            "D) Se estudar, será aprovado.",
-            "E) Embora estivesse cansado, continuou."
-        ],
-        correta: "C",
-        explicacao: "Há duas orações independentes ligadas pela conjunção coordenativa 'e'."
-    },
-    {
-        pergunta: "Assinale a alternativa em que a reescrita mantém o sentido original da frase.",
-        alternativas: [
-            "A) Apesar de estudar, não foi aprovado.",
-            "B) Não foi aprovado porque estudou pouco.",
-            "C) Não foi aprovado, embora tivesse estudado.",
-            "D) Estudou pouco, logo foi aprovado.",
-            "E) Foi aprovado, entretanto não estudou."
-        ],
-        correta: "C",
-        explicacao: "A conjunção 'embora' mantém a relação de concessão presente no sentido original."
-    },
   
 ]
 
 // ================= ESTADO =================
 let index = 0;
 let acertos = 0;
-let puladas = 0;
 let respondido = false;
 let tempo = 1800;
 let respostaUsuario = null;
@@ -1437,9 +1329,7 @@ const timerInterval = setInterval(() => {
 
     const timerEl = document.getElementById("timer");
     if (timerEl) {
-        timerEl.innerText = `⏱️ Tempo restante: ${min}:${sec
-            .toString()
-            .padStart(2, "0")}`;
+        timerEl.innerText = `⏱️ Tempo restante: ${min}:${sec.toString().padStart(2, "0")}`;
     }
 
     if (tempo <= 0) finalizar();
@@ -1481,24 +1371,16 @@ function render() {
 
     quiz.innerHTML = html;
 
-    // Progresso
     document.getElementById("progress").style.width =
         ((index + 1) / questoes.length) * 100 + "%";
-
-    // Botão pular só aparece se ainda não respondeu
-    document.getElementById("skipBtn").style.display =
-        respondido ? "none" : "block";
 }
 
-// ================= BOTÃO RESPONDER / PRÓXIMA =================
+// ================= BOTÃO =================
 document.getElementById("actionBtn").onclick = () => {
     const quiz = document.getElementById("quiz");
 
-    // ===== RESPONDER =====
     if (!respondido) {
-        const marcada = document.querySelector(
-            "input[name='resposta']:checked"
-        );
+        const marcada = document.querySelector("input[name='resposta']:checked");
         if (!marcada) return alert("Selecione uma alternativa");
 
         respostaUsuario = marcada.value;
@@ -1513,16 +1395,9 @@ document.getElementById("actionBtn").onclick = () => {
             quiz.innerHTML += `<div class="wrong">❌ Errado</div>`;
         }
 
-        quiz.innerHTML += `
-            <div class="explain">
-                📘 ${questoes[index].explicacao}
-            </div>
-        `;
+        quiz.innerHTML += `<div class="explain">📘 ${questoes[index].explicacao}</div>`;
+        document.getElementById("actionBtn").innerText = "➡️ Próxima questão";
 
-        document.getElementById("actionBtn").innerText =
-            "➡️ Próxima questão";
-
-    // ===== PRÓXIMA QUESTÃO =====
     } else {
         index++;
         respondido = false;
@@ -1531,26 +1406,9 @@ document.getElementById("actionBtn").onclick = () => {
         if (index >= questoes.length) {
             finalizar();
         } else {
-            document.getElementById("actionBtn").innerText =
-                "Responder";
+            document.getElementById("actionBtn").innerText = "Responder";
             render();
         }
-    }
-};
-
-// ================= BOTÃO PASSAR QUESTÃO =================
-document.getElementById("skipBtn").onclick = () => {
-    if (respondido) return;
-
-    puladas++;
-    index++;
-    respostaUsuario = null;
-    respondido = false;
-
-    if (index >= questoes.length) {
-        finalizar();
-    } else {
-        render();
     }
 };
 
@@ -1558,17 +1416,10 @@ document.getElementById("skipBtn").onclick = () => {
 function finalizar() {
     clearInterval(timerInterval);
 
-    const respondidas = questoes.length - puladas;
-
     document.body.innerHTML = `
         <div class="container">
             <h2>🏆 Simulado concluído</h2>
-
-            <p><b>Total de questões:</b> ${questoes.length}</p>
-            <p>✅ Acertos: <b>${acertos}</b></p>
-            <p>⏭️ Puladas: <b>${puladas}</b></p>
-            <p>📊 Respondidas: <b>${respondidas}</b></p>
-
+            <p><b>Resultado:</b> ${acertos}/${questoes.length}</p>
             <button onclick="location.reload()">🔁 Reiniciar</button>
         </div>
     `;
